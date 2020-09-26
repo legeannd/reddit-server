@@ -30,7 +30,8 @@
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "max-classes-per-file": "off",
     "class-methods-use-this": "off",
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "radix": "off"
   },
   "settings": {
     "import/resolver": {
