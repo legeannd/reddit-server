@@ -9,9 +9,9 @@
 ## About the project <a id="secao-en_us"></a>
 
 This is a NodeJS server based on the main functionalities of Reddit's site.
-In the server, users can create an account, login, create a post, see all the posts, edit a post, delete a post, and upvote and downvote posts. Each users are able to see its own upvotes and downvotes in a post, and delete and update only its own posts.
+In the server, users can create an account, login, change account password through recovery email, create a post, see all the posts, edit a post, delete a post, and upvote and downvote posts. Each users are able to see its own upvotes and downvotes in a post, and delete and update only its own posts.
 
-The database was created using Postgres and the routes were created using GraphQL, and Redis was used to cache posts.
+The database was created using Postgres and the routes were created using GraphQL, and Redis was used to cache posts. The emails were sent using Nodemailer.
 
 The frontend of the app can be found [here](https://github.com/legeannd/reddit-web).
 
@@ -27,6 +27,7 @@ The frontend of the app can be found [here](https://github.com/legeannd/reddit-w
 - [x] ioredis
 - [x] Postgres
 - [x] TypeORM
+- [x] Nodemailer
 
 ## How to run the project <a id="installation"></a>
 To run the project, you'll need to have Node and NPM or Yarn installed to setup all the dependencies.
@@ -37,9 +38,9 @@ Install all dependencies using the `yarn` command, run `yarn dev` in one termina
 
 ## Sobre o projeto <a id="secao-pt_br"></a>
 
-Este é um servidor em NodeJS baseado nas funcionalidades principais do site do Reddit. No servidor, os usuários podem criar uma conta, fazer login, criar um post, ver todos os posts, editar um post, deletar um post, e dar upvote e downvote nos posts. Todos os usuários podem ver seus próprios upvotes e downvotes em um post, e deletar e atualizar apenas seus próprios posts.
+Este é um servidor em NodeJS baseado nas funcionalidades principais do site do Reddit. No servidor, os usuários podem criar uma conta, fazer login, mudar a senha da conta através do email, criar um post, ver todos os posts, editar um post, deletar um post, e dar upvote e downvote nos posts. Todos os usuários podem ver seus próprios upvotes e downvotes em um post, e deletar e atualizar apenas seus próprios posts.
 
-O banco de dados foi criado usando Postgres e as rotas foram criadas usando GraphQL, e o Redis foi usado para fazer cache dos posts.
+O banco de dados foi criado usando Postgres e as rotas foram criadas usando GraphQL, e o Redis foi usado para fazer cache dos posts. Os emails foram enviados utilizando o Nodemailer.
 
 O front-end do app pode ser encontrado [aqui](https://github.com/legeannd/reddit-web).
 
@@ -55,6 +56,7 @@ O front-end do app pode ser encontrado [aqui](https://github.com/legeannd/reddit
 - [x] ioredis
 - [x] Postgres
 - [x] TypeORM
+- [x] Nodemailer
 
 ## Como executar o projeto <a id="instalacao"></a>
 Para executar o projeto, você irá precisar ter o Node e o NPM ou Yarn instalados para baixar as dependências.
