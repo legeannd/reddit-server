@@ -1,5 +1,5 @@
 # Reddit Server
-![stacks](https://img.shields.io/badge/NodeJS-v12.18.4-brightgreen) ![stacks](https://img.shields.io/badge/Express-v4.17.1-brightgreen) ![stacks](https://img.shields.io/badge/GraphQL-v15.3.0-brightgreen) ![stacks](https://img.shields.io/badge/ioredis-v4.17.3-brightgreen) ![stacks](https://img.shields.io/badge/TypeORM-v0.2.26-brightgreen) ![stacks](https://img.shields.io/badge/Stack-Typescript-blue) ![GitHub](https://img.shields.io/github/license/legeannd/typeform-homepage-clone)
+![stacks](https://img.shields.io/badge/NodeJS-v12.18.4-brightgreen) ![stacks](https://img.shields.io/badge/Express-v4.17.1-brightgreen) ![stacks](https://img.shields.io/badge/GraphQL-v15.3.0-brightgreen) ![stacks](https://img.shields.io/badge/ioredis-v4.17.3-brightgreen) ![stacks](https://img.shields.io/badge/TypeORM-v0.2.26-brightgreen) ![stacks](https://img.shields.io/badge/Stack-Typescript-blue) ![GitHub](https://img.shields.io/github/license/legeannd/reddit-server)
 
 * [Content (en-US)](#secao-en_us)
 * [Conteúdo (pt-BR)](#secao-pt_br)
